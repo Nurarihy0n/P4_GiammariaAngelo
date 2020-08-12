@@ -31,7 +31,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    /* padding: 0 50px; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -655,7 +655,7 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    margin: auto;
 }
 
 .hero-bloc-text {
@@ -829,10 +829,10 @@ h4 {
 }
 
 @media (max-width: 1024px) {
-    .bloc {
+    /* .bloc {
         padding-left: 20px;
         padding-right: 20px;
-    }
+    } */
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
